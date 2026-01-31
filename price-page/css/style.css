@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #181A1B;
+  color: #ffffff;
+}
+
+.price_wrapper {
+	padding: 80px 0;
+}
+
+.price_wrapper .head_text {
+	max-width: 650px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.price_wrapper .head_text h2 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.price_wrapper .price_item {
+	 background: #131516;
+	 border-radius: 15px;
+	 padding: 25px;
+	 margin-top: 40px;
+}
+
+.price_wrapper .price_item p {
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+.price_wrapper .price_item h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.price_wrapper .price_item h2 span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price_wrapper .price_item ul {
+    list-style: none;
+    padding: 30px 25px 0 25px;
+}
+
+.price_wrapper .price_item ul li {
+    padding-bottom: 10px;
+    color: #b6b6b6;
+}
+
+.price_wrapper .price_item ul li i {
+	  color: rgb(51, 149, 87);
+	  margin-right: 10px;
+}
+
+.price_wrapper .price_item a {
+	  height: 50px;
+	  background: linear-gradient(90deg, #9ED4FC 0.1%, #D081F7 98.06%);
+	  padding: 0 20px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  color: #ffffff;
+	  border-radius: 10px;
+	  transition: 0.4s all ease-in-out;
+}
+
+.price_wrapper .price_item a:hover {
+	  background: linear-gradient(90deg, #D081F7 0.1%, #9ED4FC 98.06%);
+	  text-decoration: none;
+}
